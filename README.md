@@ -31,17 +31,17 @@ https://github.com/nizarfadlan/StoryU/assets/40895148/d679e64a-a72a-4a5d-8a46-2c
 ## 📦 Package Structure
  ```
 com.nizarfadlan.storyu
-├── app                   		# Application class
-├── data                  		# For data handling
+├── app                   	# Application class
+├── data                  	# For data handling
 │   ├── datasource             	# Retrieves data from various sources
 │   ├── local               	# Local Persistence Database. Room (SQLite) database
-│   │   ├── dao               	# Data Access Object for Room
-│   │   └── room          		# Database Instance
+│   │   ├── dao                 # Data Access Object for Room
+│   │   └── room          	# Database Instance
 │   ├── mediator
 │   │   └── StoryRemoteMediator # Acts as a mediator between local and remote data sources
-│   ├── pref               		# Datastore Setting Preference and Session
+│   ├── pref                    # Datastore Setting Preference and Session
 │   ├── remote               	# Handles remote data access API
-│   └── repository				# Manages data resources
+│   └── repository		# Manages data resources
 ├── di                        	# Koin DI Modules
 ├── domain                    	# Core application models
 ├── presentation
