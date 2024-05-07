@@ -22,7 +22,9 @@ StoryU is an application that displays a list of stories from friends who are st
 <br />
 
 ## 🎬 Video
-[![Watch the video](https://github.com/nizarfadlan/StoryU/blob/main/art/cover.png)](https://github.com/nizarfadlan/StoryU/blob/main/art/video_app.mp4)
+
+https://github.com/nizarfadlan/StoryU/assets/40895148/d679e64a-a72a-4a5d-8a46-2c4db10debb1
+
 
 <br />
 
