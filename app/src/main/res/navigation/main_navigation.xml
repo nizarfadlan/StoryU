@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/storyListFragment">
+
+    <fragment
+        android:id="@+id/storyListFragment"
+        android:name="com.nizarfadlan.storyu.presentation.ui.main.listStory.StoryListFragment"
+        android:label="fragment_story_list"
+        tools:layout="@layout/fragment_story_list">
+        <action
+            android:id="@+id/action_storyListFragment_to_storyDetailFragment"
+            app:destination="@id/storyDetailFragment" />
+        <action
+            android:id="@+id/action_storyListFragment_to_storyAddFragment"
+            app:destination="@id/storyAddFragment" />
+        <action
+            android:id="@+id/action_storyListFragment_to_settingFragment"
+            app:destination="@id/settingFragment" />
+        <action
+            android:id="@+id/action_storyListFragment_to_storyMapActivity"
+            app:destination="@id/storyMapActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyDetailFragment"
+        android:name="com.nizarfadlan.storyu.presentation.ui.main.detailStory.StoryDetailFragment"
+        android:label="fragment_story_detail"
+        tools:layout="@layout/fragment_story_detail">
+        <argument
+            android:name="storyId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_storyDetailFragment_to_storyListFragment"
+            app:destination="@id/storyListFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/storyAddFragment"
+        android:name="com.nizarfadlan.storyu.presentation.ui.main.addStory.StoryAddFragment"
+        android:label="fragment_story_add"
+        tools:layout="@layout/fragment_story_add" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="com.nizarfadlan.storyu.presentation.ui.main.setting.SettingFragment"
+        android:label="fragment_setting"
+        tools:layout="@layout/fragment_setting" />
+    <activity
+        android:id="@+id/storyMapActivity"
+        android:name="com.nizarfadlan.storyu.presentation.ui.map.StoryMapActivity"
+        android:label="activity_story_map"
+        tools:layout="@layout/activity_story_map" />
+</navigation>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Title Fragment -->
+    <string name="title_fragment_setting">Pengaturan</string>
+    <string name="title_fragment_story_detail">Detail Cerita</string>
+    <string name="title_fragment_add_story">Cerita Baru</string>
+    <string name="title_stories_location">Lokasi Cerita</string>
+
+    <!-- Location -->
+    <string name="title_ask_permission_location">Hidupkan lokasi</string>
+    <string name="message_location_access">Kami meminta akses lokasi anda untuk memberikan kemudahan untuk meningkatkan pengalaman pengguna dalam menggunakan aplikasi Distory</string>
+    <string name="title_location_required">Izinkan lokasi</string>
+    <string name="message_location_required">Aplikasi membutuhkan izin lokasi untuk mengakses fitur ini</string>
+    <string name="unknown_address">Alamat tidak diketahui</string>
+
+    <!-- Setting -->
+    <string name="label_setting_general">Umum</string>
+    <string name="label_setting_theme">Tema</string>
+    <string name="label_theme_mode_system">Sistem</string>
+    <string name="label_theme_mode_light">Terang</string>
+    <string name="label_theme_mode_dark">Gelap</string>
+    <string name="label_dialog_theme">Pilih Tema</string>
+    <string name="label_dialog_language">Pilih Bahasa</string>
+    <string name="label_setting_language">Bahasa</string>
+    <string name="label_language_english">Inggris</string>
+    <string name="label_language_system">Sistem Default</string>
+    <string name="label_logout">Keluar</string>
+
+    <!-- Auth -->
+    <string name="hint_full_name">Masukkan nama lengkap mu</string>
+    <string name="hint_email">Masukkan email mu</string>
+    <string name="hint_password">Masukkan kata sandi mu</string>
+
+    <string name="header_signin_title">Masuk.</string>
+    <string name="header_signin_subtitle">Selamat datang kembali Anda telah dirindukan</string>
+    <string name="header_signup_title">Daftar.</string>
+    <string name="header_signup_subtitle">Halo pengguna, kami harap perjalanan Anda menyenangkan</string>
+
+    <string name="label_full_name">Nama Lengkap</string>
+    <string name="label_email">Email</string>
+    <string name="label_password">Kata Sandi</string>
+
+    <string name="label_signin_here">Sudah memiliki akun?</string>
+    <string name="label_signin">Masuk</string>
+    <string name="label_signup_here">Belum memiliki akun?</string>
+    <string name="label_signup">Daftar</string>
+
+    <string name="validation_full_name">Nama lengkap hanya boleh karakter</string>
+    <string name="validation_email">Format emailmu kurang tepat</string>
+    <string name="validation_password">Minimal %d karakter</string>
+
+    <!-- Story -->
+    <string name="label_description">Deskripsi</string>
+    <string name="label_photo">Foto</string>
+    <string name="label_change_photo">Ubah Foto</string>
+    <string name="label_hour">%1$d jam yang lalu</string>
+    <string name="label_seconds">%1$d detik yang lalu</string>
+    <string name="label_day">%1$d hari yang lalu</string>
+    <string name="label_minutes">%1$d menit yang lalu</string>
+
+    <string name="hint_description">Masukkan deskripsi cerita Anda</string>
+    <string name="hint_photo">Pilih foto cerita Anda</string>
+
+    <string name="validation_photo_empty">Silakan pilih satu foto</string>
+
+    <string name="actions_add_story">Posting</string>
+
+    <string name="message_success_upload_story">Cerita Anda telah diposting!</string>
+
+    <!-- Welcome -->
+    <string name="title_welcome_1">Terhubung dengan Teman Lewat Story</string>
+    <string name="description_welcome_1">Buat dan bagikan story untuk terhubung dengan teman-temanmu. Ceritakan momen-momen berhargamu dan temukan inspirasi dari story mereka.</string>
+    <string name="title_welcome_2">Ekspresikan Dirimu Melalui Story</string>
+    <string name="description_welcome_2">Gunakan fitur-fitur kreatif StoryU untuk mengekspresikan dirimu. Tuangkan imajinasi dan bagikan cerita unikmu dengan komunitas.</string>
+    <string name="title_welcome_3">Temukan Inspirasi, Bagi Ceritamu</string>
+    <string name="description_welcome_3">Temukan story yang menginspirasi dari pengguna lain. Lalu, bagikan pula momen-momen berhargamu untuk menginspirasi orang lain.</string>
+    <string name="start_now">Mulai Sekarang</string>
+
+    <!-- Widget -->
+    <string name="app_widget_description">Cerita terbaru hari ini dapat dilihat dari Widget</string>
+
+    <!-- Navigation -->
+    <string name="label_nav_home">Beranda</string>
+    <string name="label_nav_new_story">Cerita Baru</string>
+    <string name="label_nav_settings">Pengaturan</string>
+
+    <!-- Common -->
+    <string name="validation_must_not_empty">Kolom tidak boleh kosong</string>
+    <string name="label_loading">Memuat…</string>
+    <string name="message_signin_success">Berhasil masuk</string>
+    <string name="message_signin_failed">Gagal masuk. Mohon periksa kembali email dan kata sandi Anda.</string>
+    <string name="header_toolbar_home">Selamat datang,</string>
+    <string name="label_empty_data">Tidak ada data yang tersedia</string>
+    <string name="label_error">Sesuatu yang salah terjadi</string>
+    <string name="label_icon_gallery">Galeri</string>
+    <string name="label_icon_camera">Kamera</string>
+    <string name="action_refresh">Muat Ulang</string>
+</resources>

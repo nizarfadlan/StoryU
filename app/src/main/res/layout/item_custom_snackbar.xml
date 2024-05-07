@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_8dp"
+        app:cardCornerRadius="16dp"
+        android:elevation="@dimen/elevation_12dp"
+        android:layout_alignParentTop="true">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:orientation="vertical"
+            android:padding="@dimen/dimen_16dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/messageSnackbar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:text="@string/message_snackbar"
+                android:lines="3"
+                android:layout_marginEnd="4dp"
+                android:lineBreakWordStyle="phrase"
+                style="@style/textSemiBold"
+                app:layout_constraintEnd_toStartOf="@+id/closeSnackbar"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                tools:targetApi="tiramisu" />
+
+            <Button
+                android:id="@+id/closeSnackbar"
+                style="@style/buttonIcon"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:icon="@drawable/ic_close_24"
+                app:iconSize="@dimen/dimen_24dp"
+                app:iconGravity="textStart"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/messageSnackbar"
+                app:layout_constraintTop_toTopOf="@id/messageSnackbar"
+                app:layout_constraintBottom_toBottomOf="@id/messageSnackbar" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

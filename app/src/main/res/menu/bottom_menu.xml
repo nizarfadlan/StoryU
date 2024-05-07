@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/storyListFragment"
+        android:icon="@drawable/ic_home_24"
+        android:title="@string/label_nav_home" />
+    <item
+        android:id="@+id/storyAddFragment"
+        android:icon="@drawable/ic_add_24"
+        android:title="@string/label_nav_new_story" />
+    <item
+        android:id="@+id/settingFragment"
+        android:icon="@drawable/ic_setting_24"
+        android:title="@string/label_nav_settings" />
+
+</menu>

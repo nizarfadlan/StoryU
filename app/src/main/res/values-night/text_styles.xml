@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textMuted">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/font_sm</item>
+        <item name="android:textColor">@color/material_dynamic_neutral60</item>
+    </style>
+</resources>

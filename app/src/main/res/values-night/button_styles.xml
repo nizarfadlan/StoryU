@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="buttonWhite" parent="Widget.Material3.Button">
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerLarge</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">@dimen/dimen_28dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">@dimen/dimen_18dp</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+        <item name="backgroundTint">@color/material_dynamic_neutral20</item>
+        <item name="android:textColor">@color/material_dynamic_neutral100</item>
+    </style>
+
+    <style name="buttonIcon" parent="Widget.Material3.Button.IconButton.Filled">
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerMedium</item>
+        <item name="backgroundTint">@color/material_dynamic_neutral20</item>
+        <item name="iconTint">@color/material_dynamic_neutral100</item>
+        <item name="elevation">@dimen/elevation_8dp</item>
+        <item name="android:fontFamily">@font/inter_medium</item>
+    </style>
+
+</resources>

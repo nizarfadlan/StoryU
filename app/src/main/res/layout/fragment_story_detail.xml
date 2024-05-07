@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.main.detailStory.StoryDetailFragment">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/iv_detail_photo_user"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginVertical="@dimen/dimen_10dp"
+                android:layout_marginStart="@dimen/dimen_18dp"
+                android:src="@drawable/profile_default"
+                app:layout_constraintBottom_toTopOf="@id/iv_detail_photo"
+                app:layout_constraintEnd_toEndOf="@id/guidelineUser"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guidelineUser"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.15" />
+
+            <TextView
+                android:id="@+id/tv_detail_name"
+                style="@style/textBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_10dp"
+                android:layout_marginEnd="@dimen/dimen_18dp"
+                app:layout_constraintBottom_toTopOf="@id/tv_detail_date"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0"
+                app:layout_constraintStart_toStartOf="@id/guidelineUser"
+                app:layout_constraintTop_toTopOf="@id/iv_detail_photo_user"
+                app:layout_constraintVertical_chainStyle="packed"
+                tools:text="@string/user" />
+
+            <TextView
+                android:id="@+id/tv_detail_date"
+                style="@style/textBold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/font_sm"
+                android:layout_marginStart="@dimen/dimen_10dp"
+                android:layout_marginEnd="@dimen/dimen_18dp"
+                app:layout_constraintBottom_toBottomOf="@id/iv_detail_photo_user"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@id/guidelineUser"
+                app:layout_constraintTop_toBottomOf="@id/tv_detail_name"
+                tools:text="@string/date" />
+
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/iv_detail_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintHeight_min="@dimen/dimen_350dp"
+                app:layout_constraintHeight_max="@dimen/dimen_450dp"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:adjustViewBounds="true"
+                android:foreground="?android:attr/selectableItemBackgroundBorderless"
+                android:scaleType="fitCenter"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintBottom_toTopOf="@id/tv_detail_description"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_detail_photo_user"
+                app:shapeAppearance="?attr/shapeAppearanceCornerLarge"
+                android:background="@drawable/bg_rounded_large" />
+
+            <TextView
+                android:id="@+id/tv_detail_description"
+                style="@style/textNormal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/iv_detail_photo"
+                app:layout_constraintStart_toStartOf="@id/iv_detail_photo"
+                app:layout_constraintEnd_toEndOf="@id/iv_detail_photo"
+                tools:text="@string/tools_description" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <include
+        android:id="@+id/loading_layout"
+        android:visibility="gone"
+        layout="@layout/layout_loading" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

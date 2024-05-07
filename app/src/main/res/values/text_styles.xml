@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="textSM">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/font_sm</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="textNormal">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="textXL3">
+        <item name="android:fontFamily">@font/inter_black</item>
+        <item name="android:textSize">@dimen/font_xl3</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="textBold">
+        <item name="android:fontFamily">@font/inter_bold</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="textSemiBold">
+        <item name="android:fontFamily">@font/inter_semibold</item>
+        <item name="android:textSize">@dimen/font_normal</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="textMuted">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textSize">@dimen/font_sm</item>
+        <item name="android:textColor">@color/material_dynamic_neutral40</item>
+    </style>
+</resources>

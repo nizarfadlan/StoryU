@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.StoryU" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/material_dynamic_neutral100</item>
+        <item name="android:colorBackground">@color/material_dynamic_neutral100</item>
+        <item name="colorOnBackground">@color/material_dynamic_neutral20</item>
+        <item name="cardBackgroundColor">@color/material_dynamic_neutral99</item>
+    </style>
+
+    <style name="App.Custom.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/material_dynamic_neutral99</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerLarge</item>
+    </style>
+
+    <style name="Theme.StoryU" parent="Base.Theme.StoryU" />
+
+    <style name="Theme.StoryU.AppWidgetContainerParent" parent="@android:style/Theme.DeviceDefault">
+        <item name="appWidgetRadius">16dp</item>
+        <item name="appWidgetInnerRadius">8dp</item>
+    </style>
+
+    <style name="Theme.StoryU.AppWidgetContainer" parent="Theme.StoryU.AppWidgetContainerParent">
+        <item name="appWidgetPadding">16dp</item>
+    </style>
+</resources>

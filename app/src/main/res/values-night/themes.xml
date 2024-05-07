@@ -1,0 +1,15 @@
+<resources>
+
+    <style name="Base.Theme.StoryU" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primaryDark</item>
+        <item name="colorOnPrimary">@color/primary</item>
+        <item name="android:colorBackground">@color/material_dynamic_neutral0</item>
+        <item name="colorOnBackground">@color/material_dynamic_neutral100</item>
+        <item name="cardBackgroundColor">@color/material_dynamic_neutral10</item>
+    </style>
+
+    <style name="App.Custom.ActiveIndicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/material_dynamic_neutral10</item>
+        <item name="shapeAppearance">?attr/shapeAppearanceCornerLarge</item>
+    </style>
+</resources>

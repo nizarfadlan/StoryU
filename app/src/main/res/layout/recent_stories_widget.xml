@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/Widget.StoryU.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.StoryU.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/emptyText"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/font_medium"
+        android:fontFamily="@font/inter"
+        android:text="@string/label_empty_data" />
+
+    <GridView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:divider="@null"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="5dp"
+        tools:listitem="@layout/item_recent_story" />
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="240dp"
+    android:gravity="center"
+    android:id="@+id/loadingText"
+    android:text="@string/label_loading"
+    android:textSize="@dimen/font_medium"
+    android:background="@drawable/bg_rounded_large"
+    android:fontFamily="@font/inter"
+    android:textColor="?attr/colorOnBackground" />
