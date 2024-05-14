@@ -34,6 +34,7 @@ retrofitVersion = "2.9.0"
 roomKtx = "2.6.1"
 swiperefreshlayout = "1.2.0-alpha01"
 timber = "5.0.1"
+gMapsSecrets = "2.0.1"
 
 [libraries]
 androidx-activity-activity-ktx3 = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
@@ -91,4 +92,5 @@ timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 devToolsKsp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+gmapsSecrets = { id = "com.google.android.libraries.mapsplatform.secrets-gradle-plugin", version.ref = "gMapsSecrets" }
 

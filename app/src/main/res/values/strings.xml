@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">StoryU</string>
-    <string name="gmaps_api_key" translatable="false">YOUR API KEY</string>
 
     <!-- String Tools -->
     <string name="user" translatable="false">User</string>
